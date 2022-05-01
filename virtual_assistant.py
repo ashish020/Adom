@@ -234,7 +234,7 @@ def respond(voice_data):
     #13 screenshot
     if there_exists(["capture","my screen","screenshot"]):
         myScreenshot = pyautogui.screenshot()
-        myScreenshot.save('C:/Users/YASH/Pictures/Screenshots') 
+        myScreenshot.save('C:/Users/Ashish/Pictures/Screenshots') 
     
     
     #14 to search wikipedia for definition
@@ -265,7 +265,7 @@ time.sleep(1)
 
 person_obj = person()
 asis_obj = asis()
-asis_obj.name = 'Kim'
+asis_obj.name = 'Adom'
 engine = pyttsx3.init()
 
 
